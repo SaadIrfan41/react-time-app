@@ -61,10 +61,8 @@
   },
   "scripts": {
     "start": "craco start",
-
-     "build": "craco build",
-
-     "test": "craco test",
+    "build": "craco build",
+    "test": "craco test",
     "test:coverage": "react-scripts test --coverage --runInBand --watchAll=false",
     "eject": "react-scripts eject",
     "isready": "npm run format && npm run lint && npm run test:coverage && npm run build"
